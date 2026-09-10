@@ -1,0 +1,55 @@
+[build-system]
+requires = ["setuptools>=77.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cynthia-cli"
+version = "0.1.0"
+description = "AI-native developer intelligence CLI for local multi-project analysis"
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.10"
+authors = [
+    { name = "Fardin Hasan Siam" },
+]
+keywords = [
+    "cli",
+    "developer-tools",
+    "git",
+    "productivity",
+    "ai",
+    "python",
+    "terminal",
+]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.12",
+    "Environment :: Console",
+    "Topic :: Software Development :: Version Control",
+    "Topic :: Utilities",
+]
+dependencies = [
+    "typer>=0.12",
+    "rich>=13.7",
+    "GitPython>=3.1",
+    "watchdog>=4.0",
+    "pydantic>=2.6",
+    "tomli-w>=1.0",
+    "pyfiglet>=1.0",
+    "scikit-learn>=1.4",
+]
+
+[project.urls]
+Homepage = "https://github.com/fardinx/cynthia"
+Repository = "https://github.com/fardinx/cynthia"
+
+[project.scripts]
+cynthia = "cynthia.cli:app"
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
