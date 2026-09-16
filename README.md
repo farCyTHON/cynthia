@@ -1,4 +1,7 @@
 # CYNTHIA
+[![PyPI version](https://badge.fury.io/py/cynthia-cli.svg)](https://pypi.org/project/cynthia-cli/)
+[![PyPI Downloads](https://img.shields.io/pypi/dm/cynthia-cli.svg)](https://pypistats.org/packages/cynthia-cli)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 **AI-native, local-first developer intelligence CLI.**
 
