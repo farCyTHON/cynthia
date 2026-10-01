@@ -6,4 +6,4 @@ and overall project health — all from a local SQLite store, no cloud
 upload required.
 """
 
-__version__ = "0.1.0"
+__version__ = "0.1.4"
