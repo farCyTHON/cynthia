@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "cynthia-cli"
-version = "0.1.0"
+version = "0.1.2"
 description = "AI-native developer intelligence CLI for local multi-project analysis"
 readme = "README.md"
 license = "MIT"
@@ -42,8 +42,8 @@ dependencies = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/fardinx/cynthia"
-Repository = "https://github.com/fardinx/cynthia"
+Homepage = "https://github.com/farCyTHON/cynthia"
+Repository = "https://github.com/farCyTHON/cynthia"
 
 [project.scripts]
 cynthia = "cynthia.cli:app"

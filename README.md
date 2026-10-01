@@ -21,6 +21,14 @@ to compare every registered project at a glance.
         context-aware developer workflows
 ```
 
+## Quick Start & Installation
+
+**Recommended (Global Isolation):**
+CYNTHIA is best installed via [pipx](https://pipx.pypa.io/stable/), which completely prevents Windows PATH errors and dependency conflicts.
+```bash
+pipx install cynthia-cli
+
+Or
 ## Install
 
 ```bash
